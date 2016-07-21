@@ -1,0 +1,41 @@
+[
+    {
+        "ccj": "No",
+        "missed_credit": "no",
+        "consolidate_debt": "Yes",
+        "postcode": "NW44RL",
+        "loan_amount": "£960,000 - £979,999",
+        "property_value": "£600,000 - £619,999",
+        "product_type": {
+            "option": "First Time Buyer",
+            "value": "first_time_buyer"
+        },
+        "employment_status": {
+            "option": "Self Employed",
+            "value": "self_employed"
+        },
+        "bankrupt": {
+            "option": "2-5 yrs ago",
+            "value": "2"
+        },
+        "first_name": "Saminu",
+        "last_name": "Salisu",
+        "dob": {
+            "day": "27",
+            "month": "Oct",
+            "year": 1989
+        },
+        "email": "s.salisu@live.co.uk",
+        "residential_address": {
+            "town": "London",
+            "flat": "Flat 1",
+            "house_number": "Flat 1, 18",
+            "county": "Middlesex",
+            "street": "Sunningfields Road",
+            "postcode": "NW4 4RL",
+            "address": "Flat 1, 18 Sunningfields Road, London, Middlesex"
+        },
+        "mobile_number": 7586789209,
+        "home_number": 7586789209
+    }
+]

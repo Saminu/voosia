@@ -1,0 +1,35 @@
+.apply {
+  border-radius: 0px;
+  background: #FB9B00;
+  font-family: WalkwayUltraBold;
+  font-size: 39px;
+  color: #FFFFFF;
+  line-height: 39px;
+  /* Get Loan: */
+  border-bottom: 3px solid #6E3D12;
+}
+.listing-heading {
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+  .listing-heading {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.listing-body {
+  margin-bottom: 0px;
+}
+.listing-panel {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-size: cover%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+.listing-image img {
+  max-height: 140px;
+  max-width: 200px;
+}

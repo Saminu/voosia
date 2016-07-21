@@ -1,0 +1,38 @@
+{
+  "name": "voosia",
+  "version": "2",
+  "authors": [
+    "Sam <s.salisu@live.co.uk>"
+  ],
+  "description": "Car Finance",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "jquery": "1.11.1",
+    "cookieDirective": "git@bitbucket.org:olliephillips/cookiesdirective.js.git",
+    "components-font-awesome": "~4.2.0",
+    "html5shiv": "git://github.com/aFarkas/html5shiv.git#~3.7.2",
+    "respond": "https://github.com/scottjehl/Respond.git#~1.4.2",
+    "angular": "~1.2.26",
+    "angular-resource": "~1.2.26",
+    "angular-ui-router": "https://github.com/angular-ui/ui-router.git#~0.2.13",
+    "jquery-numerator": "https://github.com/garethdn/jquery-numerator.git#~0.2.0",
+      "xdomain": "~0.6",
+      "jquery-ui": "~1.11.1",
+      "jquery-ui-touch-punch": "https://github.com/furf/jquery-ui-touch-punch.git",
+      "jQuery-Storage-API": "https://github.com/julien-maurel/jQuery-Storage-API.git#~1.7.3",
+      "ngstorage": "https://github.com/gsklee/ngStorage.git#~0.3.0"
+  }
+}

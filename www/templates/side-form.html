@@ -1,0 +1,98 @@
+<form action="apply.html" class="cashnow form-horizontal" role="form" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <div><label class="" for=""><h1><strong>Cash Now</strong>&nbsp;Form</h1></label>
+                    <span class="pull-right fa fa-lock"></span>
+                </div>
+                <div class="help-block">Apply now for an instant decision - 24/7 - guaranteed!</div>
+                <div class="spacer"></div>
+            </div>
+
+            <div id="mobile_selector" class="hidden-lg hidden-md row ">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <select name="amount_select" class="form-control">
+                        <option value="1">£1000</option>
+                        <option value="2">£1500</option>
+                        <option value="3">£2000</option>
+                        <option value="4">£2500</option>
+                        <option value="5">£3000</option>
+                        <!--<option value="6">£3500</option>-->
+                        <!--<option value="7">£4000</option>-->
+                        <!--<option value="8">£4500</option>-->
+                        <!--<option value="9">£5000</option>-->
+                    </select>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <select name="duration" class="form-control">
+                        <option value="0">12 Months</option>
+                        <option value="0">15 Months</option>
+                        <option value="0">18 Months</option>
+                        <option value="0">21 Months</option>
+                        <option value="0">24 Months</option>
+                    </select>
+                </div>
+            </div>
+            <div class="hidden-xs hidden-sm">
+                <label class="" for="">I would like to borrow:</label>
+                <input type="text" id="borrow" readonly class="slider_value pull-right"
+                       style="text-align: right;">
+
+                <div id="slider2" class="slider_effect" style="
+                        background-color:forestgreen; background-image:none; color: #000000; height: 8px"
+                        ></div>
+                <div class="spacer"></div>
+                <label class="" for="">I would like to repay it over:</label>
+                <input type="text" id="amount" readonly class="slider_value pull-right"
+                       style="text-align: right;">
+
+                <div id="slider" class="slider_effect" style="
+                        background-color:forestgreen; background-image:none; color: #000000; height: 8px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6" style='padding-right: 10px;'>
+            <label class="hidden" for="firstname">First Name</label>
+            <input ng-model="firstname" autofocus type="text" class="form-control" placeholder="First Name" id="firstname" name="firstname" autocomplete="off">
+        </div>
+        <div class="col-md-6 col-sm-6" style='padding-left: 10px;'>
+            <label class="hidden" for="lastname">Last Name</label>
+            <input ng-model="lastname" type="text" class="form-control" placeholder="Last Name" id="lastname" name="lastname" autocomplete="off">
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6" style='padding-right: 10px;'>
+            <label class="hidden" for="phoneno">Phone No</label>
+            <input type="tel" class="form-control" placeholder="Mobile Number" id="phoneno" name="phoneno" autocomplete="off">
+        </div>
+        <div class="col-md-6 col-sm-6" style='padding-left: 10px;'>
+            <label class="hidden" for="email">Email</label>
+            <input style="text-transform: lowercase" id="email" name="email" type="email" class="form-control"
+                   placeholder="name@example.com" autocomplete="off">
+            <!-- <span class="hidden glyphicon glyphicon-info-sign"></span>&nbsp<span class="hidden small">If this is not correct, your loan may be delayed.</span>-->
+        </div>
+        <div class="col-md-12"><span class="glyphicon glyphicon-info-sign"></span>&nbsp<span
+                class="small">If this is not correct, your loan may be delayed.</span>
+        </div>
+        <div class="col-md-12">
+            <div class=" checkbox">
+                <label class="small">
+                    <input type="checkbox" checked><span><p>We would like to keep you informed by
+                    telephone, post,
+                    SMS or email of selected products and services available from us and our carefully
+                    chosen suppliers if you don't wish us to do so, please untick.</p></span>
+                </label>
+            </div>
+            <div class="text-center">
+                <button value="apply.html"
+                        class="btn btn-default button-apply ">Apply Now
+                </button>
+            </div>
+        </div>
+    </div>
+</form>

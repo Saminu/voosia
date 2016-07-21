@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Voosia">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Voosia Site">
+    <meta name="author" content="Saminu Salisu - Quiddi.com-">
+
+    <title>Voosia | Your highway to finance</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/title_icon.png"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='//fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <div class="row topbar">
+            <div class="col-md-4 pull-left no-lr-padding">
+                <a href="index.html"><img class="logo" src="assets/img/logo-01.svg"
+                                          alt="Voosia | Your Highway to Finance"></a>
+            </div>
+            <div class="col-md-5">
+            </div>
+            <div class="hidden-xs col-md-3 no-lr-padding pull-right">
+                <div class="badges">
+                    <div class="">
+                        <img class="img-responsive review-rating" src="assets/img/review-center-stars.png">
+                        <!--<img class="img-responsive review-rating" src="assets/img/trust-pilot-review.png">-->
+                    </div>
+                </div>
+                <div class="badges hidden">
+                    <div class="">
+                        <span class="badges__output">&pound;<span class="numerator_unstable">23,741,465</span></span>
+                        <span class="badges__caption">finance taken out last month</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <nav class="nav navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="clearfix list-inline">
+                        <li><a class="navbar-brand" href="index.html"><img class="" src="assets/img/Voosia_logo.png"
+                                                                           alt="Vooisa | Your Highway to Finance"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class=" collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="how-it-works.html">How it Works</a></li>
+                        <li><a href="faqs.html">FAQ's</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+               <span class="phone_number hidden">
+                   <p class="navbar-text glyphicon glyphicon-earphone"
+                      style="margin-left: 80px; color: darkgray; font-weight: normal; font-size: 1.0em; ">
+                       ...03302232899</p>
+               </span>
+                    <!--<ul class="nav navbar-nav navbar-right">-->
+                    <!--<li class="active">-->
+                    <!--<button type="button"  onclick="window.location='apply.html';"-->
+                    <!--class="btn btn-default navbar-btn hidden-xs hidden-sm">Sign in-->
+                    <!--</button>-->
+                    <!--</li>-->
+                    <!--</ul>-->
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <div class="dropShadow"></div>
+    </div>
+
+</header>
+
+<!-- ==== Above Fold ==== -->
+<div class="spacer"></div>
+<div class="container">
+<div class="row">
+<div class="col-md-7 no-lr-padding">
+    <div class="row  text-center">
+        <div class="col-md-12 t-padding">
+            <h1 class="f-light"> How <span class="f-thick">Voosia</span> Works</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 no-lr-padding">
+            <img class="img-responsive" src="assets/img/howitworks-01.svg" align="">
+        </div>
+    </div>
+</div>
+<div class="col-md-5 no-l-padding"><!-- Slider Menu -->
+    <div class="cashnow_out" ng-controller="Sideform">
+        <form action="apply.html" class="cashnow form-horizontal" role="form" method="post">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <div><label class="" for=""><h1><strong>Cash Now</strong>&nbsp;Form</h1></label>
+                            <span class="pull-right fa fa-lock"></span>
+                        </div>
+                        <div class="help-block">Apply now for an instant decision - 24/7 - guaranteed!</div>
+                        <div class="spacer"></div>
+                    </div>
+
+                    <div id="mobile_selector" class="hidden-lg hidden-md row ">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <select name="amount_select" class="form-control">
+                                <option value="1">£1000</option>
+                                <option value="2">£1500</option>
+                                <option value="3">£2000</option>
+                                <option value="4">£2500</option>
+                                <option value="5">£3000</option>
+                                <!--<option value="6">£3500</option>-->
+                                <!--<option value="7">£4000</option>-->
+                                <!--<option value="8">£4500</option>-->
+                                <!--<option value="9">£5000</option>-->
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <select name="duration" class="form-control">
+                                <option value="0">12 Months</option>
+                                <option value="0">15 Months</option>
+                                <option value="0">18 Months</option>
+                                <option value="0">21 Months</option>
+                                <option value="0">24 Months</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="hidden-xs hidden-sm">
+                        <label class="" for="">I would like to borrow:</label>
+                        <input type="text" id="borrow" readonly class="slider_value pull-right"
+                               style="text-align: right;">
+
+                        <div id="slider2" class="slider_effect" style="
+                        background-color:forestgreen; background-image:none; color: #000000; height: 8px"
+                                ></div>
+                        <div class="spacer"></div>
+                        <label class="" for="">I would like to repay it over:</label>
+                        <input type="text" id="amount" readonly class="slider_value pull-right"
+                               style="text-align: right;">
+
+                        <div id="slider" class="slider_effect" style="
+                        background-color:forestgreen; background-image:none; color: #000000; height: 8px"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6" style='padding-right: 10px;'>
+                    <label class="hidden" for="firstname">First Name</label>
+                    <input ng-model="firstname" autofocus type="text" class="form-control" placeholder="First Name" id="firstname" name="firstname" autocomplete="off">
+                </div>
+                <div class="col-md-6 col-sm-6" style='padding-left: 10px;'>
+                    <label class="hidden" for="lastname">Last Name</label>
+                    <input ng-model="lastname" type="text" class="form-control" placeholder="Last Name" id="lastname" name="lastname" autocomplete="off">
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6" style='padding-right: 10px;'>
+                    <label class="hidden" for="phoneno">Phone No</label>
+                    <input type="tel" class="form-control" placeholder="Mobile Number" id="phoneno" name="phoneno" autocomplete="off">
+                </div>
+                <div class="col-md-6 col-sm-6" style='padding-left: 10px;'>
+                    <label class="hidden" for="email">Email</label>
+                    <input style="text-transform: lowercase" id="email" name="email" type="email" class="form-control"
+                           placeholder="name@example.com" autocomplete="off">
+                    <!-- <span class="hidden glyphicon glyphicon-info-sign"></span>&nbsp<span class="hidden small">If this is not correct, your loan may be delayed.</span>-->
+                </div>
+                <div class="col-md-12"><span class="glyphicon glyphicon-info-sign"></span>&nbsp<span
+                        class="small">If this is not correct, your loan may be delayed.</span>
+                </div>
+                <div class="col-md-12">
+                    <div class=" checkbox">
+                        <label class="small">
+                            <input type="checkbox" checked><span><p>We would like to keep you informed by
+                            telephone, post,
+                            SMS or email of selected products and services available from us and our carefully
+                            chosen suppliers if you don't wish us to do so, please untick.</p></span>
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <button value="apply.html"
+                                class="btn btn-default button-apply ">Apply Now
+                        </button>
+                    </div>
+                    <p class="text-center"><b>Representative APR 39.5%*</b></p>
+                </div>
+            </div>
+        </form>
+    </div>
+<div class="spacer"></div>
+<div class="row">
+    <div class="col-md-12 text-center">
+        <img src="assets/img/secure-logos-01.svg">
+    </div>
+</div>
+</div>
+<!-- ==== Below Fold ==== -->
+<div class="row">
+    <div class="col-md-7 r-padding-small">
+        <div class="row text-center">
+            <div class="col-md-4">
+                    <div class="lead"><span class="badges__output">&#10004;</span>&nbsp;Super fast online application process – no paperwork</div>
+            </div>
+            <div class="col-md-4">
+                <div class="lead"><span class="badges__output">&#10004;</span>&nbsp;We apply to all lenders so you don’t have to – and no fee’s!</div>
+            </div>
+            <div class="col-md-4">
+                <div class="lead"><span class="badges__output">&#10004;</span>&nbsp;With our large panel of lenders you are more likely to get a loan.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <div>
+                    <h1>Step 1
+                        <span class="f-light sub-heading">Complete our online application form</span>
+                    </h1>
+
+                    <p>This is really quick and takes just a few minutes To qualify for a loan you need to meet the
+                        following minimum criteria:
+                         
+                    </p>
+                    <ul>
+                        &#9745;&nbsp;18 years or over</br>
+                        &#9745;&nbsp;In Employment</br>
+                        &#9745;&nbsp;Earn at least £800 a month</br>
+                        &#9745;&nbsp;Have a current bank account with a debit card
+                    </ul>
+                </div>
+                <div>
+                    <div class="spacer"></div>
+                    <h1>Step 2
+                        <span class="f-light sub-heading">We search for lenders in seconds</span>
+                    </h1>
+
+                    <p>We have one of the largest panels of lenders in the UK and we search all of them in real time
+                        instantly. Within seconds you will have a decision on whether a lender has accepted you or not.
+                        Unlike banks our lenders have the most advanced technology for screening and issuing loans to
+                        all kinds of people with different credit scores.
+                         </p>
+                </div>
+                <div>
+                    <div class="spacer"></div>
+                    <h1>Step 3
+                        <span class="f-light sub-heading">A lender issues you with a loan and you get your cash</span>
+                    </h1>
+
+                    <p>That’s it and in most cases the money will be with you the same day or faster. Simple
+                         </p>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="col-md-12 text-left">
+                <div class="textwrap text-left">
+                    <h1 class="lead">
+                        Your Loan And Repaying It:
+                    </h1>
+
+                    <p>Your lender will be one of a number of approved responsible lenders that abide by a strict code
+                        of practice in assessing and issuing loans.
+                         
+
+                    <p>Lenders use a number of different criteria to evaluate your suitability for a loan including your
+                        income, home ownership status and financial stability amongst other things. They do this by
+                        running a credit check as well as conducting a number of other checks to verify your identity
+                        and bank details.
+                         </p>
+
+                    <p>All lenders will expect you to pay your loan back on your due date or by installments that you
+                        have set up. You should ensure you have enough money available in your account for this
+                        repayment. If in any circumstances you do not have enough money to pay back your loan you should
+                        immediately contact your lender to work out a repayment plan and discuss the options. If you are
+                        late in making a repayment your lender may charge you a fee: this will vary per lender.
+
+                         </p>
+
+                    <p>Lenders will use a number of options to collect your loan repayments from you depending on your
+                        credit status. The two most common methods used are:
+                    <ul class="list-alphabet">
+                        <li>Asking you to set up a direct debit</li>
+                        <li>Asking you to authorise the lender to make direct collections from your nominated debit
+                            card. 
+                        </li>
+                    </ul>
+                     
+                    </p>
+                    <p>This process is often referred to as auto-withdraw or continuous payment authority (CPA). You
+                        have the right to cancel a CPA by contacting your lender directly and initiating the process.
+                         </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="row no-bottom-padding">
+            <div class="col-md-12"><!--Below Form Side Bar-->
+                <div class="text-left panel panel-success" name="whychooseus">
+                    <h1 class="panel-heading"><span class="badges__output">Why Choose Us?</span></h1>
+
+                    <div class="panel-body">
+                        <ul>
+                            <li><span>&#10004;</span>&nbsp;Over 2 million applications processed</li>
+                            <li><span>&#10004;</span>&nbsp;Super fast technology matches you with lenders in seconds -
+                                Instant decision: 24/7
+                            </li>
+                            <li><span>&#10004;</span>&nbsp;No paperwork, ever</li>
+                            <li><span>&#10004;</span>&nbsp;No application fees</li>
+                            <li><span>&#10004;</span>&nbsp;No monthly account charges</li>
+                            <li><span>&#10004;</span>&nbsp;No postal charges</li>
+                            <li><span>&#10004;</span>&nbsp;Same day cash²</li>
+                            <li><span>&#10004;</span>&nbsp;All data is secure and encrypted</li>
+                            <li><span>&#10004;</span>&nbsp;9/10 customers recommend Voosia</li>
+                        </ul>
+                    </div>
+                    <!--<h1 class="panel-heading"><span class="badges__output"><strong>&pound;23,741,465</strong></span>-->
+                        <!--Approved</h1>-->
+
+                    <div class="text-center">
+                        <a href="apply.html">
+                            <button type="submit" class="btn btn-default button-apply ">Apply Now</button>
+                        </a>
+                        <p class="text-center"><b>Representative APR 39.5%*</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 greywrap">
+                <div class="panel panel-success promise">
+                    <h1 class="panel-heading"><span class="badges__output">Our Promise to you</span></h1>
+
+                    <div class="panel-body">
+                        <ol class="hidden">
+                            <li><span>No</span>
+
+                                <p>application fees</p></li>
+                            <li><span>No</span>
+
+                                <p>fast funding fee</p></li>
+                            <li><span>No</span>
+
+                                <p>monthly account charges</p></li>
+                            <li><span>No</span>
+
+                                <p>collection fees
+
+                                </p>
+                            </li>
+                        </ol>
+                        <Ol class="text-left">
+                            <li class="glyphicon glyphicon-send"><P>Fast <strong>loan</strong> decision</P></li>
+                            <li class="glyphicon glyphicon-user"><P>Our <strong>customers</strong> come first</P></li>
+                            <li class="glyphicon glyphicon-globe"><P>Every application <strong>considered!</strong></P></li>
+                            <li class="glyphicon glyphicon-gbp"><P>Funds to you <strong>'faster'</strong> than anyone else
+                            </P>
+                            </li>
+                            <li class="glyphicon glyphicon-thumbs-up"><P><strong>Best</strong> chance of getting a loan
+                                through
+                                us</P>
+                            </li>
+                        </Ol>
+                    </div>
+                    <div class="text-center">
+                        <a href="apply.html">
+                            <button type="submit" class="btn btn-default button-apply ">Apply Now</button>
+                        </a>
+                        <p class="text-center"><b>Representative APR 39.5%*</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row footerwrap social">
+            <h3>Connect with us socially</h3>
+
+            <div class="col-md-2"></div>
+            <div class="col-md-2 col-sm-6">
+                <a href="//twitter.com/voosiauk"><span class="fa fa-twitter-square twitter"></span></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <a href="//www.facebook.com/pages/Voosia/1491538304458818"><span class="fa fa-facebook-square facebook"></span></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <a href="#"><span class="fa fa-google-plus-square googleplus"></span></a>
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <span class="fa fa-question" onclick="window.location='contact.html'"></span>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="social_2">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="small"><a href="terms.html">Terms & conditions</a></span>
+                    <span>|</span>
+                    <span class="small"><a href="privacy.html">Privacy policy</a></span>
+                    <span>|</span>
+                    <span class="small"><a href="contact.html">Contact</a></span>
+                </div>
+                <div class="col-md-6">
+                    <p class="fa fa fa-certificate small">
+                        Company number: 07677977,
+                        FCA Number: 740572<br>
+                        Data Protection: Z2787055.
+                    </p>
+
+                    <p class="fa fa-map-marker small">
+                        <span class="dynamic-address-quiddihub"></span>
+                    </p><br>
+
+                    <p class="fa fa fa-envelope small">
+                        support@voosia.com
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row footerwrap">
+            <div class="col-md-12">
+                <p class="text-center">
+                    © Voosia.co.uk is a registered Trading name of Quiddi Limited which is an Appointed Representative
+                    of QV Holdco Ltd, and is entered on the Financial Services Register under reference number: 740572.
+                    QV Holdco Ltd is authorised and regulated by the Financial Conduct Authority and is entered on the
+                    Financial Services Register under reference number: 672826 <br>
+                    Quiddi Limited is registered in England and Wales Company number: 07677977, registered office; 44-46
+                    Windsor Road, Slough, SL1 2EJ, UK and Licensed by the Information Commissioners Office (registration
+                    number: ZA141869)<br>
+
+                     The operator of this website is not an agent or representative of consumers or any
+                    lender and does not endorse the services offered by specific lenders. Quiddi Limited does not charge
+                    borrowers a fee for the use of the brokerage services, but it receives a commission from lenders or
+                    other brokers where borrowers enter into a consumer credit agreement with lenders and brokers
+                    following
+                    an introduction through this website. As a broker we process the information you provide us and pass
+                    this onto our trusted third party lenders and brokers to help you apply for a loan. For more
+                    information
+                    on how we handle your data see our Privacy Policy. ¹ Subject to application being approved by the
+                    lender. Not all lenders are able to provide up to £3000. ² Upon acceptance of the loan offer and
+                    entry
+                    into an agreement with the lender, the lender will transfer the cash within 24 hours. Clearance of
+                    the
+                    funds is dependent on whether your bank accepts faster payments.
+                      </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Slider Script start-->
+<script src="libs/angular/angular.js"></script>
+<script src="libs/ngstorage/ngStorage.js"></script>
+<script src="js/readFromStorage.js"></script>
+
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+<script src="libs/jquery-ui-touch-punch/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+<script src="libs/jQuery-Storage-API/jquery.storageapi.min.js"></script>
+
+<script type="text/javascript" src="assets/js/slider.js"></script>
+<script type="text/javascript" src="libs/jquery-numerator/jquery-numerator.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--Cookie Script start-->
+<script type="text/javascript" src="assets/js/jquery.cookiesdirective.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.cookiesDirective({
+            privacyPolicyUri: 'privacy.html',
+            duration: 5,
+            position: 'bottom',
+            explicitConsent: false
+        });
+    });
+</script>
+<!--Cookie Script end-->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/sitewide.js"></script>
+
+
+<script src="//lookup.identi-k.it/static/dynamicContentLookup.js" type="text/javascript"></script>
+
+
+</body>
+</html>

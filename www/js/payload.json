@@ -1,0 +1,40 @@
+[
+    {
+        "monthly_payment": "108.79",
+        "url": "https://test.rtb.quiddiportal.com/v1.0/trigger/",
+        "interest_rate": "1.4174",
+        "amount_repayable": "2611",
+        "payload": {
+            "request_type": "brap_data",
+            "bid": "54c6c6cb2f5276680f0cb533"
+        },
+        "interest_apr": "18.4%",
+        "amount": 2200,
+        "document_collection": "none",
+        "duration": "24",
+        "interest_charge": "411",
+        "accepted": true,
+        "banner": "//www.wearesevenhills.com/resource/binary/binary/1804c1b1c71a6744512f4aeb0e3d757d.jpg",
+        "price": "175",
+        "promotional_text": "Take this loan, it's a pretty good deal."
+    },
+    {
+        "monthly_payment": "108.79",
+        "url": "https://test.rtb.quiddiportal.com/v1.0/trigger/",
+        "interest_rate": "1.4174",
+        "amount_repayable": "2611",
+        "payload": {
+            "request_type": "brap_data",
+            "bid": "54c6c6cb2f5276680e0cb534"
+        },
+        "interest_apr": "18.4%",
+        "amount": 2200,
+        "document_collection": "none",
+        "duration": "24",
+        "interest_charge": "411",
+        "accepted": true,
+        "banner": "https://cdn.mycloud.net/images/banner/logo.png",
+        "price": "175",
+        "promotional_text": "Take this loan, it's a pretty good deal."
+    }
+]
